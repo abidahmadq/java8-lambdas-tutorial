@@ -1,0 +1,28 @@
+Why Lambdas?
+1) Enables functional Programming
+2) Readable and concise code.
+3) Easier to use API's and libraries.
+4) Enables support for parallel processing
+
+Functional Programming vs OOP
+1) Some places functional programming looks more elegant.
+
+Code in OOP:-
+1) Everything is an object.
+2) All code blocks are associated with classes and objects.
+3) Can't pass a behavior always have to create an class with behaviour.
+
+Lambda:-
+1) Are not methods of class and they don't exist inside class.
+2) They are functions with values.
+
+Examples :- 
+1) greetingFunction = () -> System.out.println("Hello World!");
+2) doubleNumberFunction = (int a) -> { return a * 2; }; can also skip the return.
+   doubleNumberFunction = (int a) ->  a * 2;
+3) addFunction = (int a, int b) -> a + b;
+4) safeDivide =  (int a, int b) -> {
+		if(b == 0) return 0;
+		return a / b;
+	};
+5) stringLengthCountFunction = (String s) -> s.length();

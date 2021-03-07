@@ -1,0 +1,5 @@
+package io.abidahmad;
+
+public interface Greeting {
+	public void perform();
+}
